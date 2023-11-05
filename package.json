@@ -1,31 +1,31 @@
 {
-    "name": "buildtoolsgui",
-    "version": "0.1.1",
-    "description": "Spigot BuildTools wrapped in a Graphical User Interface",
-    "main": "main.js",
-    "scripts": {
-        "start": "electron ."
-    },
-    "repository": "https://github.com/MoaufmKlo/BuildToolsGUI",
-    "author": {
-        "name": "MoaufmKlo",
-        "email": "hi@moaufmklo.com",
-        "url": "https://moaufmklo.com"
-    },
-    "license": "ISC",
-    "dependencies": {
-        "download": "8.0.0"
-    },
-    "devDependencies": {
-        "electron": "^11.5.0",
-        "electron-builder": "^22.8.0",
-        "eslint": "^7.6.0",
-        "eslint-config-airbnb-base": "^14.2.0",
-        "eslint-plugin-import": "^2.22.0"
-    },
-    "build": {
-        "win": {
-            "target": "portable"
-        }
+  "name": "buildtoolsgui",
+  "version": "0.1.1",
+  "description": "Spigot BuildTools wrapped in a Graphical User Interface",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/mallusrgreat/BuildToolsGUI",
+  "author": {
+    "name": "MoaufmKlo",
+    "email": "hi@moaufmklo.com",
+    "url": "https://moaufmklo.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "download": "8.0.0"
+  },
+  "devDependencies": {
+    "electron": "^11.5.0",
+    "electron-builder": "^22.14.13",
+    "eslint": "^7.6.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  },
+  "build": {
+    "win": {
+      "target": "portable"
     }
+  }
 }
