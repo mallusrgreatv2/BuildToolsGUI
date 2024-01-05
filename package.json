@@ -1,6 +1,6 @@
 {
   "name": "buildtoolsgui",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "description": "Spigot BuildTools wrapped in a Graphical User Interface",
   "main": "main.js",
   "scripts": {
@@ -26,17 +26,20 @@
     "appId": "me.mallusrgreat.buildtoolsgui",
     "productName": "BuildToolsGUI",
     "win": {
-      "target": "portable"
+      "target": "portable",
+      "icon": "icon.png"
     },
     "linux": {
       "category": "Utility",
-      "target": ["AppImage"]
+      "target": ["tar.gz", "AppImage"],
+      "icon": "icon.icns"
     },
     "dmg": {
-      "icon": false
+      "icon": "icon.icns"
     },
     "mac": {
-      "category": "public.app-category.utilities"
+      "category": "public.app-category.utilities",
+      "icon": "icon.icns"
     }
   }
 }
