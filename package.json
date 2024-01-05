@@ -30,7 +30,7 @@
     },
     "linux": {
       "category": "Utility",
-      "target": "AppImage"
+      "target": ["AppImage"]
     },
     "dmg": {
       "icon": false
