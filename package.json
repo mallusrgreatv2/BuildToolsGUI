@@ -1,6 +1,6 @@
 {
   "name": "buildtoolsgui",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Spigot BuildTools wrapped in a Graphical User Interface",
   "main": "main.js",
   "scripts": {
@@ -8,9 +8,8 @@
   },
   "repository": "https://github.com/mallusrgreat/BuildToolsGUI",
   "author": {
-    "name": "MoaufmKlo",
-    "email": "hi@moaufmklo.com",
-    "url": "https://moaufmklo.com"
+    "name": "mallusrgreat",
+    "email": "mallusrgreat@proton.me"
   },
   "license": "ISC",
   "dependencies": {
