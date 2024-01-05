@@ -23,8 +23,20 @@
     "eslint-plugin-import": "^2.22.0"
   },
   "build": {
+    "appId": "me.mallusrgreat.buildtoolsgui",
+    "productName": "BuildToolsGUI",
     "win": {
       "target": "portable"
+    },
+    "linux": {
+      "category": "Utility",
+      "target": "AppImage"
+    },
+    "dmg": {
+      "icon": false
+    },
+    "mac": {
+      "category": "public.app-category.utilities"
     }
   }
 }
